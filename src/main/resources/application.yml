@@ -1,0 +1,14 @@
+server:
+ port: 9122
+ 
+spring:
+ application:
+  name: boot-exceptionhandling
+ h2:
+  console:
+   enabled: true
+ jpa:
+  show-sql: true
+  hibernate:
+   propertise:
+    format-sql: true
